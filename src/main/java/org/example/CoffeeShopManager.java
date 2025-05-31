@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class CoffeeShopManager {
-    private static final String DB_URL = "jdbc:sqlite:kavyarnya.db";
+    private static final String DB_URL = "jdbc:sqlite:cafe.db";
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(DB_URL)) {
